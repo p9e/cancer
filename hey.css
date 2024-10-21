@@ -4,6 +4,7 @@
 }
 
 :any-link {
+  color: inherit;
   font-size: max(1em, 44px);
 }
 
@@ -13,10 +14,14 @@
   outline-width: thick;
 }
 
+:any-link:hover {
+  text-decoration-style: double;
+}
+
 body {
   box-sizing: border-box;
   margin: auto;
-  padding: 1ex;
+  padding: 1ex 2ch;
 }
 
 nav {
@@ -24,17 +29,21 @@ nav {
   padding-block-end: 1rem;
 }
 
+li:not(:focus-within) {
+  list-style-type: circle;
+}
+
 data {
-  font-weight: 800;
+  font-weight: bold;
 }
 
 hr {
   border: 0;
-  border-top: thick dotted magenta;
+  border-top: thick dotted;
 }
 
-header {
-  box-sizing: border-box;
-  font-size: 2em;
-  font-weight: bold;
+h1 {
+  font-size: 1.618em;
+  font-weight: unset;
+  margin: 0;
 }
