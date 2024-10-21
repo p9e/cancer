@@ -1,5 +1,3 @@
-# [graf](../../generate) a [wall](https://webmural.com/wall)
+# [ ♋ ](https://p9e.page/cancer)
 
-1. [validate](https://validator.w3.org/#validate_by_input) [HTML](index.html)
-1. [cascade](wall.css) [CSS](https://webmural.com/css)
-1. enable [Pages](../../settings/pages)
+[semantic HTML crab](https://p9e.page/cancer)
